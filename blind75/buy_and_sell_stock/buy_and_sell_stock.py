@@ -6,6 +6,7 @@ def maxProfit(prices):
     #         profits = max(profits, prices[j] - prices[i])
     # return profits if profits > 0 else 0 
     # here's a smarter one 
+    # this defensive check is also good 
     if not prices: 
         return 0 
     min_price = float('inf')

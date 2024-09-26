@@ -9,4 +9,7 @@ Return the maximum profit you can achieve from this transaction. If you cannot a
 ----- 
 - I need to make sure I've internalized this pattern of iterating over an array in a MECE, rolling way 
     - Basically this entails just starting from the first pointer
-- The optimization comes from the fact that you basically want the max difference, so you need to find the max max and the min min 
+- The optimization comes from the fact that you basically want the max difference. 
+    - So we take a really big number and set that as the default for min price 
+    - And we default max profit to 0 
+    - And update, update 
