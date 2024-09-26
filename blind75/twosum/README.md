@@ -6,4 +6,8 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order.
 
+------
 
+I ran into some problems with even just the brute force implementation of this one. 
+- Enumerate returns a tuple of (index, value)
+- Since we don't want a synchronized loop (we want an offset loop), the inner loop index needs to be modified accordingly

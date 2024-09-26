@@ -1,12 +1,23 @@
 def twoSum(nums, target):
-    rv = [] 
-    for i, v in enumerate(nums): 
-        for j in range(i+1, len(nums)): 
-            if v + nums[j] == target:
-                rv.append(i)
-                rv.append(j) 
-    print(rv)
-    return rv
+    # this is the brute force 
+    # rv = [] 
+    # for i, v in enumerate(nums): 
+    #     for j, k in enumerate(nums[1:]): 
+    #         print(v, k)
+    #         if v + k == target:
+    #             rv.append(i)
+    #             rv.append(j+1) 
+    #             print(f'RV --> {rv}')
+    #             return rv
+    # this is the smart one pass solution
+    # it stores the difference as the key 
+    # and the index as a the value  
+    d = {} 
+    for i, num in enumerate(nums): 
+        if num in d: 
+            return [d[num], i]
+        else: 
+            d[target - num] = i
 
 
 
