@@ -1,7 +1,12 @@
 def productExceptSelf(nums): 
-    rv = []
-    for i in nums: 
-        
+    ans = []
+    tmp_product = 1 
+    for i in range(len(nums)):
+        ans.append(tmp_product)
+        tmp_product *= nums[i] 
+    return ans 
+
+
 
 
 if __name__ == '__main__': 
