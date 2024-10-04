@@ -3,3 +3,4 @@ def max_value(nums):
   for i in nums: 
     mx = max(mx, i)
   return mx 
+
