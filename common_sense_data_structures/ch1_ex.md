@@ -29,5 +29,5 @@ Setup: :set spell spelllang=en_us to get spellcheck
 
 
 
-Question III.  
+## Question III.  
 To find all instances of an element in an array, we would need to traverse the entire array, so that's N operations. 
