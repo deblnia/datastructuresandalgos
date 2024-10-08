@@ -1,6 +1,6 @@
 from typing import List 
 def canFinish(numCourses: int, prerequisites: List[List[int]]) -> bool:
-
+    # need this so that even courses without prereqs are in the list 
     adjacency_list = {i: [] for i in range(numCourses)}
     for pair in prerequisites:
         adjacency_list[pair[0]].append(pair[1])
