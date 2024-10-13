@@ -16,3 +16,4 @@
 - Educative: https://www.educative.io/courses/grokking-coding-interview-in-python
 - Design Gurus: https://www.designgurus.io/course-play/grokking-the-coding-interview/doc/who-should-take-this-course
 - Code Chef: https://www.codechef.com/dashboard
+- Deep ML: https://www.deep-ml.com/
