@@ -7,7 +7,8 @@ def reverse_linked_list(head):
 	prev = None
 	curr = head 
 	while curr is not None: 
-		next = curr.next 
+		next = curr.next
+		# turning the node around  
 		curr.next = prev  
 		# incrementing 
 		prev = curr 
