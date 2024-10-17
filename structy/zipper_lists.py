@@ -18,3 +18,17 @@ def zipper_lists(head1, head2):
     if curr2 is not None: 
         tail.next = curr2 
     return head1 
+
+    # here's the recursive way - some echos of similarity 
+    # if head_1 is None and head_2 is None: 
+    #     return None 
+    # if head_1 is None: 
+    #     return head_2 
+    # if head_2 is None: 
+    #     return head_1
+  
+    # next1 = head_1.next
+    # next2 = head_2.next 
+    # head_1.next = head_2
+    # head_2.next = zipper_lists(next1, next2)
+    # return head_1
