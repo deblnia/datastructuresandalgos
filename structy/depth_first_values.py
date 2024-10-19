@@ -5,4 +5,17 @@ class Node:
         self.right = None 
 
 def depth_first_values(root):
-    pass 
+    if root is None: 
+        return []
+    
+    values = []
+    stack = [root]
+    while stack: 
+        curr = stack.pop()
+        values.append(curr.val)
+
+        if curr.right is not None: 
+            stack.append(curr.right)
+        if curr.left is not None: 
+            stack.append(curr.left)
+    return values 
