@@ -19,3 +19,4 @@ steps, but that's a constant so not counted.
 
 I think this is O(N^2). We skip the inner loop half the time but that just adds
 a constant (1/2) to the time that isn't counted in the overall time. 
+
