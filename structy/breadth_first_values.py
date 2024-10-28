@@ -1,6 +1,6 @@
 from collections import deque  
 
-def class Node: 
+class Node: 
 	def __init__(self, val): 
                 self.val = val 
                 self.left = None 
@@ -19,4 +19,4 @@ def breadth_first_values(root):
                         q.append(node.left)
                 if node.right:
                         q.append(node.right) 
-       return values 
+        return values 
