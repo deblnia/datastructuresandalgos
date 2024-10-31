@@ -1,3 +1,5 @@
+# both of these are O(num. edges) time and O(n) space 
+
 def has_path(graph, src, dst): 
     """
     This is the DFS implmenetation. 
