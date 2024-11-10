@@ -37,5 +37,21 @@ def triangular(n):
 
 ## Question IV 
 
+```python 
+
+def find_x(str, x):
+    if str[0] == x: 
+        return 0 
+    return find_x(str[1:], x) + 1 
+
+```
 
 ## Question V 
+
+```python 
+
+def unique_paths(rows, cols): 
+    if rows == 1 or cols == 1: 
+        return 1 
+    return unique_paths(rows - 1, cols) + unique_paths(rows, cols - 1) 
+``` 
