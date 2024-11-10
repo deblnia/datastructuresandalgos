@@ -14,3 +14,4 @@ def _count_paths(grid, r, c, memo):
   
   memo[pos] = _count_paths(grid, r + 1, c, memo) + _count_paths(grid, r, c + 1, memo)
   return memo[pos]
+# not sure what the brute force is here - you'll need a helper function either way right? 
