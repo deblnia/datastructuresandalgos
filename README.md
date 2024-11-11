@@ -9,7 +9,7 @@
 ## algos 
 - Competitive Programmer's Handbook: https://cses.fi/book/book.pdf
 - Common Sense Data Structures and Algos (I have the Python version): https://github.com/GauravWalia19/Free-Algorithms-Books/blob/main/Library/src/JAVASCRIPT/A-Common-Sense-Guide-to-Data-Structures-and-Algorithms-Level-Up-Your-Core-Programming-Skills.pdf 
-
+- [Problem Solving with Data Structures and Algos in Python](https://runestone.academy/ns/books/published/pythonds/index.html) 
 
 ## misc 
 - Structy: https://www.structy.net/
