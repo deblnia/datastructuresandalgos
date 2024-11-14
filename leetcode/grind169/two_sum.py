@@ -1,5 +1,5 @@
 class Solution:
-    def two_sum(target:int, array:[List[int]]) -> (int, int):
+    def two_sum(self, target:int, array:[List[int]]) -> (int, int):
         d = {}
         for i, v in enumerate(array):
             if v not in d: 
