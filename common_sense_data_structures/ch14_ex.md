@@ -1,3 +1,73 @@
+
+```python 
+
+class Node: 
+    def __init__(self, data):
+        self.data = data 
+        self.next_node = None 
+
+class LinkedList: 
+    def __init__(self, first_node=None):
+        self.first_node = first_node 
+
+    def read(self, index):
+        current = self.first_node 
+        curr_index = 0 
+
+        while curr_index < index: 
+            current = current.next_node 
+            current_index += 1 
+
+            if not current: 
+                return None
+        return current.data
+
+    def search(self, value):
+        current = self.first_node 
+        curr_index = 0 
+
+        while True: 
+            if current.data == value: 
+                return curr_index 
+            current = current.next_node 
+            if not current: 
+                break 
+            current_index += 1 
+        return None 
+
+    def insert(self, index, value): 
+        new = node.Node(value) 
+        if index == 0: 
+            new_node.next_node = self.first_node 
+            self.first_node = new_node 
+            return 
+        
+        current = self.first_node 
+        current_index = 0 
+        while current_index < (index - 1): 
+            current_node = current_node.next_node 
+            current_index += 1 
+
+        new_node.next_node = current_node.next_node 
+        current_node.next_node = new_node 
+
+    def delete(self, index): 
+        if index == 0:
+            self.first_node = self.first_node.next_node 
+            return 
+
+        current_node = self.first_node 
+        current_index = 0 
+
+        while current_index < (index - 1): 
+            current_node = current_node.next_node 
+            current_index += 1 
+
+            node_after_deleted_node = current_node.next_node.next_node 
+            current_node.next_node = node_after_deleted_node 
+
+```
+
 ## Question I 
 
 ```python 
