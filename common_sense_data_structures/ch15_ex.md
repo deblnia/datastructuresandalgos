@@ -135,4 +135,24 @@ def max(node):
 ```
 ## Question IV 
 
+The pre-order traversal visits left subtree first and then the right subtree. It's still depth first! 
 
+1. Moby Dick 
+2. Great Expectations 
+3. Alice in Wonderland 
+4. Lord of the Flies 
+5. Robinson Crusoe 
+6. Pride and Prejudice 
+7. The Odyssey
+
+## Question V 
+
+The post-order traversal visits the left subtree and then the right subtree and then finally the root. 
+
+1. Alice in Wonderland 
+2. Lord of the Flies 
+3. Great Expectations 
+4. Pride and Prejudice 
+5. The Odyssey 
+6. Robinson Crusoe 
+7. Moby Dick  
