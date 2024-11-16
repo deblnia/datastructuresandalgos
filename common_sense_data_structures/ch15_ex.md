@@ -112,5 +112,27 @@ def traverse_and_print(node):
 ``` 
 
 ## Question I
-
+Note that this binary search tree is not balanced since not every node has two children. 
 ![](./images/bst.png)
+
+## Question II 
+
+Searching a BST is log(N), so if N=1000, I would expect search to take about 10 steps. 
+
+## Question III 
+
+The greatest value in a BST will always be the right-most left node. 
+
+```python 
+
+def max(node): 
+    if node.right_child: 
+        return 
+    max(node.right_child)
+    else: 
+        return node.value
+
+```
+## Question IV 
+
+
