@@ -113,4 +113,4 @@ def traverse_and_print(node):
 
 ## Question I
 
-![](.images/bst.png)
+![](./images/bst.png)
