@@ -58,4 +58,4 @@ class Heap:
 
 ## Question I 
 
-!()[./images/heap_insert.png]
+![](./images/heap_insert.png)
