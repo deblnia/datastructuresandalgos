@@ -59,3 +59,12 @@ class Heap:
 ## Question I 
 
 ![](./images/heap_insert.png)
+
+## Question II 
+
+![](./images/heap_del.png)
+
+## Question III 
+
+The numbers would be in descending order (or ascending, if this is a min-heap).
+Heapsort is also O(NlogN). 
