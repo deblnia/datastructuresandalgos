@@ -28,5 +28,5 @@ def _summing_squares(n, memo):
         min_squares = min(min_squares, num_squares) 
 
     memo[n] = min_squares
-    return min_squares    
+    return min_squares       
 
