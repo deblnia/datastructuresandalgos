@@ -4,6 +4,7 @@ class Solution:
     def mySqrt(self, x: int) -> int:
         # I think the trick here is python's crazy default rounding  
         # return math.floor(math.sqrt(x)) 
+        
         # okay no they actually wanted to do it 
         if x < 2: 
             return x # 0 or 1 case 
