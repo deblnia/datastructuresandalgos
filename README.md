@@ -1,7 +1,7 @@
 # data structures and algos 
 
 ## leetcode 
-- [ ]  Blind 75: https://leetcode.com/list/oizxjoit
+- [ ] Blind 75: https://leetcode.com/list/oizxjoit
 - [ ] Grind 169: https://leetcode.com/list/rabvlt31
 - [ ] Grind 75: https://leetcode.com/list/rab78cw1
 - [ ] Neetcode 150: https://leetcode.com/list/rr2ss0g5
@@ -10,6 +10,7 @@
 - [ ] Competitive Programmer's Handbook: https://cses.fi/book/book.pdf
 - [ ] Common Sense Data Structures and Algos (I have the Python version): https://github.com/GauravWalia19/Free-Algorithms-Books/blob/main/Library/src/JAVASCRIPT/A-Common-Sense-Guide-to-Data-Structures-and-Algorithms-Level-Up-Your-Core-Programming-Skills.pdf 
 - [ ] [Problem Solving with Data Structures and Algos in Python](https://runestone.academy/ns/books/published/pythonds/index.html) 
+- [ ] Elements of Programming Interviews in Python: https://elementsofprogramminginterviews.com/sample/epilight_python_new.pdf
 
 ## misc 
 - [X] Structy: https://www.structy.net/
@@ -18,4 +19,4 @@
 - [ ] Code Chef: https://www.codechef.com/dashboard
 - [ ] Deep ML: https://www.deep-ml.com/
 - [ ] Bradfield DS&A: https://bradfieldcs.com/algos/
-- [ ] Elements of Programming Interviews in Python: https://elementsofprogramminginterviews.com/sample/epilight_python_new.pdf
+- [ ] Random Github Repo: https://github.com/learn-co-curriculum/postwork-data-structures-and-algorithms?tab=readme-ov-file
