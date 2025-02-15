@@ -18,3 +18,4 @@
 - [ ] Code Chef: https://www.codechef.com/dashboard
 - [ ] Deep ML: https://www.deep-ml.com/
 - [ ] Bradfield DS&A: https://bradfieldcs.com/algos/
+- [ ] Elements of Programming Interviews in Python: https://elementsofprogramminginterviews.com/sample/epilight_python_new.pdf
