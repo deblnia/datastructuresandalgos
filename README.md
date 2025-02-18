@@ -20,4 +20,5 @@
 - [ ] [Deep ML](https://www.deep-ml.com/)
 - [ ] [Bradfield DS&A](https://bradfieldcs.com/algos/)
 - [ ] [Random Github Repo](https://github.com/learn-co-curriculum/postwork-data-structures-and-algorithms?tab=readme-ov-file)
+- [ ] [Another random Github Repo](https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews)
 - [ ] [Cheat Sheet from Lareine](https://github.com/ljeng/cheat-sheet)
