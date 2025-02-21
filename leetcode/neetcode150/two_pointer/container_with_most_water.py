@@ -5,7 +5,8 @@ def maxArea(heights: list[int]) -> int:
     while l < r:
         area = (r - l) * min(heights[l], heights[r])
         max_area = max(max_area, area)
-        if heights[l] < heights[r]:
+       # always want to update the smallest bar since that's the limiter 
+	if heights[l] < heights[r]:
             l += 1
         else:
             r -= 1
