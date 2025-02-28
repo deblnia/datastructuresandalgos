@@ -11,6 +11,19 @@ def maxProfit(prices: list[int]) -> int:
             min_price_so_far = v  
     return mx 
 
+# could also use two pointer e.g. 
+def maxProfit(prices: list[int]) -> int:
+    l, r = 0, 1  # Left is the buy day, right is the potential sell day
+    mx = 0 
+
+    while r < len(prices):
+        if prices[r] > prices[l]:  
+            mx = max(mx, prices[r] - prices[l])  # Update max profit
+        else:
+            l = r  # Move buy day forward if we find a lower price
+        r += 1  # Always move sell day forward
+
+    return mx
 
 assert maxProfit([10,1,5,6,7,1]) == 6 
 assert maxProfit([10,8,7,5,2]) == 0 
